@@ -7,11 +7,10 @@ import {
   Image,
   Center,
   useDisclosure,
- 
   useMediaQuery,
   Text
 } from '@chakra-ui/react'
-import detailsModal from '../pages/loginModal';
+import DetailsModal from '../pages/loginModal';
 import { TriangleDownIcon } from '@chakra-ui/icons'
 import {useForm, SubmitHandler } from 'react-hook-form';
 
@@ -135,7 +134,7 @@ function login() {
   {errors.password && <p>Password is required</p>}
 
 </div>
-<detailsModal name={fullName} email={email} onOpen={onOpen} onClose={onClose} isOpen={isOpen} />
+<DetailsModal name={fullName} email={email} onOpen={onOpen} onClose={onClose} isOpen={isOpen} />
 
 </form>
           <Text text-align='center' color=' #000000' font-family='Roboto' font-style='normal' font-size='13px' font-weight='100' line-height='40px'>Already have an account ? Login</Text>

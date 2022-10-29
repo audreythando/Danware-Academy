@@ -25,10 +25,10 @@ interface ModalDetails {
 }
 
 
-function DetailsModal(props: ModalDetails) {
+function Details(props: ModalDetails) {
     
 
-    
+
 
     const closeModal = () => {
         props.onClose();
@@ -90,4 +90,4 @@ function DetailsModal(props: ModalDetails) {
     )
 }
 
-export default DetailsModal;
+export default Details

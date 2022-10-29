@@ -11,7 +11,7 @@ import {
   useMediaQuery,
   Text
 } from '@chakra-ui/react'
-import DetailModal from '../pages/detailsmodal'
+import DetailModal from '../pages/signUpModal'
 import { TriangleDownIcon } from '@chakra-ui/icons'
 import {useForm, SubmitHandler } from 'react-hook-form';
 
