@@ -1,11 +1,18 @@
-import React from 'react'
+import React , {useEffect} from 'react'
 import Link from 'next/link';
 import { Image, Heading,Box, Flex, Button, useMediaQuery, Center } from '@chakra-ui/react';
+import router from 'next/router';
 
 
 function NotFound() {
   const [isResponsive] = useMediaQuery('(max-width: 400px)')
 
+useEffect(()=>{
+setTimeout(()=>{
+  router.push('/');
+}, 5000)
+
+}, [])
 
   return (
 

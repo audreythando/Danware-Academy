@@ -13,8 +13,8 @@ import {
     Input,
     Flex,
     Center
-} from '@chakra-ui/react'
-
+} from '@chakra-ui/react';
+import Link from "next/link";
 
 interface ModalDetails {
     name: string,
@@ -32,7 +32,7 @@ function DetailsModal(props: ModalDetails) {
 
     const closeModal = () => {
         props.onClose();
-        // navigate("/login");
+        <Link href='/signUp'></Link>
     }
 
 
