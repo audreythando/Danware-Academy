@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lesson_plans",
+  "info": {
+    "singularName": "lesson-plan",
+    "pluralName": "lesson-plans",
+    "displayName": "lesson-plan"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "LessonsInProgress": {
+      "type": "boolean"
+    },
+    "LessonCompleted": {
+      "type": "boolean"
+    }
+  }
+}
