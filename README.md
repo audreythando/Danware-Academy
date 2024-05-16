@@ -3,12 +3,15 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Getting Started
 
 First, run the development server:
+![Screenshot (477)](https://github.com/audreythando/Danware-Academy/assets/82891759/79f7013a-f4b7-420d-a72c-7cd74caa935d)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+![Screenshot (478)](https://github.com/audreythando/Danware-Academy/assets/82891759/a7522abf-85ee-45ef-9c63-b4bfce720f64)
+
+![Screenshot (479)](https://github.com/audreythando/Danware-Academy/assets/82891759/3fa27224-8c1a-4e3b-be95-c50dff3988ec)
+
+
+
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
